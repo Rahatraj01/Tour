@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+}
+header{
+	background-image: url(images/back2.jpg) ;
+	height: 78vh;
+}	
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.navber{
+	font-family: 'Source Sans Pro', sans-serif;
+	display:flex ;
+	justify-content: space-between;
+}
+.logo{
+	margin: 15px 0;
+
+}
+.menu{
+	text-align: right;
+	
+}
+.menu ul{
+	float: right;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 70px;
+    margin-left: 19px;
+}
+a{
+	text-decoration: none;
+}
+.menu ul li a{
+	color: white;
+	font-weight: 700;
+}
+.menu ul li a:hover{
+   color: red;
+}
+.btn {
+    height: 40px;
+    width: 113px;
+    border-radius: 31px;
+    background: bottom;
+    color: white;
+    margin: 0 20px;
+    font-weight: 700;
+    border-color: white;
+    cursor: pointer;
+}
+.masssage {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-top: 200px;
+}
+.masssage h4 {
+    color: white;
+    font-weight: 200;
+}
+.masssage hr {
+    margin: 0 auto;
+    width: 4%;
+    margin-top: 13px;
+}
+.masssage h1 {
+    margin: 30px 0;
+    color: white;
+    font-size: 55px;
+}
+.ms {
+    height: 45px;
+    width: 155px;
+    border-radius: 31px;
+    background: bottom;
+    color: white;
+    margin: 0 10px;
+    font-weight: 700;
+    background-color: #FB2056;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ms:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+
+.caption{
+	background-color: #F4F5F9;
+}
+.lecture {
+    display: flex;
+    justify-content:center;
+}
+.desh img {
+    margin: 33px 5px;
+}
+.cap {
+    margin: 50px 10px;
+    line-height: 35px;
+    color: #8C949C;
+}
+.ad{
+	margin-left: 161px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8C949C;
+}
+.head {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.head hr {
+    width: 6%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.visit{
+	display: flex;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.event-1{
+	width: 50%;
+	
+}
+.event-1 img{
+	width:80%;
+	margin-right: -60px;
+   box-shadow: 10px 10px 10px rgb(0 0 0 / 40%);
+}
+.event-2{
+	width: 50%;
+}
+.event-2 img{
+	width: 80%;
+	margin-left: -60px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 40%);
+}
+.event-1 h4, .event-2 h4{
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.event-1 h5, .event-2 h5 {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 33px;
+}
+.lr {
+    color: red;
+    font-weight: 400;
+    cursor: pointer;
+}
+.lr:hover{
+    color: red;
+}
+.lr i{
+    margin-left: 6px;
+}
+.mr{
+    height: 45px;
+    width: 155px;
+    border-radius: 31px;
+    color: white;
+    margin: 0 125px 20px 0px;
+    font-weight: 700;
+    background-color: #FB2056;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.mr:hover{
+     background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+.world {
+    background: url(images/world.jpg);
+    height: 69vh;
+    margin: 80px 0;
+}
+.tour{
+	float: right;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.tour-on h2 {
+    margin-top: 160px;
+    margin-right: 150px;
+    font-size: 55px;
+    color: white;
+}
+.tour-on hr {
+    width: 9%;
+    margin-top: 6px;
+    margin-bottom: 55px;
+}
+.tour-on p {
+    color: white;
+    line-height: 24px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.tour-on h5{
+    color: white;
+}
+
+
+
+
+.end{
+    margin-bottom: 80px;
+}
+.upcoming{
+    width: 100%;
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.upcoming .id-1{
+    width: 33%;
+    float: left;
+}
+/*.id-1, .id-2, .id-3{
+    flex-basis: 33%;
+    margin: 10px;
+}*/
+.id-1 {
+    margin-right: 125px;
+    text-align: left;
+}
+.id-1 h1 {
+    margin-bottom: 15px;
+    font-size: 37px;
+    font-weight: 700;
+}
+.id-1 hr {
+    width: 25%;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+.id-1 p{
+    margin-bottom: 25px;
+}
+.id-2, .id-3 {
+    flex-basis: 33%;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+.footer{
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+    background:#191919;
+    margin: 0 35px 45px;
+    line-height: 30px;
+}
